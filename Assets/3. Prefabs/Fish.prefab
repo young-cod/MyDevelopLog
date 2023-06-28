@@ -323,31 +323,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa54f23e3db626c4fab06bf1f67e9974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
   spawn: {fileID: 0}
   neighbours: []
   velocity: {x: 0, y: 0, z: 0}
   FOV: 120
-  speed: 20
-  rotSpeed: 10
-  culAngle: 0
-  maxNeighbour: 10
+  speed: 3
+  additionalSpeed: 0
+  maxNeighbour: 5
   alignmentVec: {x: 0, y: 0, z: 0}
   alignmentWeight: 1
   separationVec: {x: 0, y: 0, z: 0}
-  separtionWeight: 1
+  separationWeight: 1
   boundaryVec: {x: 0, y: 0, z: 0}
   boundaryWeigth: 3
   cohesionVec: {x: 0, y: 0, z: 0}
   cohesionWeight: 1
   obstacleVec: {x: 0, y: 0, z: 0}
   obstacleWeight: 1
-  dis: 10
-  saveDis: 10
-  maxDis: 20
-  saveArea: 30
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  aiVec: {x: 0, y: 0, z: 0}
+  aiWeight: 1
+  findDistance: 10
   recall: 0
   centerDis: 0
-  raydis: 0.5
 --- !u!1 &3499997922683587745
 GameObject:
   m_ObjectHideFlags: 0
