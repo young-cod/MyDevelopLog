@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SelectorNode : Node
 {
-    SelectorNode() : base() { }
-    SelectorNode(List<Node> children) : base(children) { }
+    public SelectorNode() : base() { }
+    public SelectorNode(List<Node> children) : base(children) { }
 
     public override ENODESTATE Evaluate()
     {

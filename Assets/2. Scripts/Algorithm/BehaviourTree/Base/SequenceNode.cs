@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SequenceNode : Node
 {
-    SequenceNode() : base() { }
-    SequenceNode(List<Node> children) : base(children) { }
+    public SequenceNode() : base() { }
+    public SequenceNode(List<Node> children) : base(children) { }
 
     public override ENODESTATE Evaluate()
     {
